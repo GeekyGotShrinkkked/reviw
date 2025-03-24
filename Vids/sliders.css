@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.slider {
+  position: relative;
+  width: 600px; /* Set your desired width */
+  height: 100px; /* Set your desired height */
+  overflow: hidden;
+  text-align: center;
+}
+
+.text-slide {
+  position: absolute;
+  width: 100%;
+  font-size: 24px; /* Adjust font size as needed */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
